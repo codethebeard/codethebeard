@@ -18,7 +18,7 @@ paginate: 10
 paginate_path: "/blog/:num"
 
 exclude: ["Gruntfile.js","package.json","_js/","node_modules/","img/to_min/","_config-dev.yml"]
-lsi: true # Related Posts Index
+lsi: false # Related Posts Index
 sass:
     style: :compressed
 

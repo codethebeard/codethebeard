@@ -1,4 +1,4 @@
-baseurl: "http://codethebeard.dev"
+baseurl: ""
 url: "http://codethebeard.dev" # the base hostname & protocol for your site DO NOT INCLUDE TRAILING SLASH
 unpublished: true
 

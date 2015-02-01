@@ -130,7 +130,7 @@ module.exports = function(grunt) {
           tasks: ['sass','autoprefixer','jekyll:dev']
         },
         php: {
-          files: ['**/*.html','**/*.md','!_site/**/*.html'],
+          files: ['**/*.html','**/*.md', '**/*.markdown','!_site/**/*.html'],
           tasks: ['jekyll:dev']
         },
         js: {
