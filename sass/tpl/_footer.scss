@@ -1,0 +1,12 @@
+#site-footer{
+	background: $grey;
+}
+.copyright{
+	font-size: em(11px);
+	color: lighten($black, 40%);
+	text-align: center;
+	padding: 10px;
+	p{
+		margin: 0;
+	}
+}

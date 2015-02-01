@@ -1,0 +1,17 @@
+<header id="site-header" class="grid-12 full-width" role="banner" {% if page.featuredImage %}style="background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ page.featuredImage | prepend: site.url }}'); background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ page.featuredImage | prepend: site.url }}');background-position:50% 50%;background-size:cover;"{% endif %}>
+	
+	<h1 id="dope-header">CodeTheBeard</h1>
+	<h2>A collection of quips, code, and more</h2>
+
+
+	<nav class="nav-collapse col-6 offset-3" role="navigation">
+		<ul>
+			<li><a href="{{ site.url }}">Home</a></li>
+			<li><a href="{{ "/about/" | prepend: site.url }}">About</a></li>
+			<li><a href="{{ "/projects/" | prepend: site.url }}">Projects</a></li>
+			<li><a href="https://github.com/codethebeard/" rel="NOFOLLOW" target="_blank" >GitHub</a></li>
+		</ul>
+	</nav>
+	
+
+</header>

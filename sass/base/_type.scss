@@ -1,0 +1,61 @@
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Slabo+13px);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+body{
+	font-family: $primary-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin-bottom: em(5px);
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.1em;
+	margin-bottom: 20px;
+	a{
+		color: $grey;
+		text-decoration: none;
+	}
+}
+h1{
+	font-size: em(30px);
+	text-transform: uppercase;
+}
+h2{
+	font-size: em(24px);
+}
+h3{
+	font-size: em(20px);
+}
+h4{
+	font-size: em(16px);
+}
+h5{
+	font-size: em(12px);
+}
+h6{
+	font-size: em(10px);
+}
+p{
+	margin-bottom: 20px;
+	font-family: 'Slabo 13px', serif;
+	line-height: 1.8em;
+}
+
+// Text Alignment
+.text-align{
+	&-right{
+		text-align: right;
+	}
+	&-left{
+		text-align: left;
+	}
+	&-center{
+		text-align: center;
+	}
+	&-justify{
+		text-align: justify;
+	}
+}

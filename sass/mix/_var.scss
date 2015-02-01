@@ -1,0 +1,99 @@
+/**
+*
+* 
+*
+*/
+
+// Booleans
+
+$comments: false; // Comment Styles?
+$responsiveNav: true; //Include Repsonsive Nav Styles?
+$pagination: false; // Post and Page Pagination Styles?
+
+//	RESET
+
+/**
+* Defines reset library. Must be "normalize", "meyer", or null.
+* @group reset
+* @type String | Null
+*/
+$reset: meyer;
+
+// COLORS
+
+$black: #000000;
+$white: #FFFDFF;
+$grey: #343438;
+$grey-dark: #343438;
+$blue: #386B7F;
+
+/** 
+* Create your Color Map to be used here.
+* @type SassMap
+* @group Colors
+* @example scss - Add a Color Object based on base color variable.
+*	blue: (
+*	   	x-light: lighten($blue, 30%),
+*		light: 	 lighten($blue, 15%),
+*		base: 	 $blue,
+*		dark: 	 darken($blue, 15%),
+*		x-dark:  darken($blue, 30%)
+*   ),
+*/
+$palettes: (
+    grey: (
+        light: 	 lighten($black, 80%),
+        base:  	 lighten($black, 50%),
+        dark: 	 lighten($black, 20%)
+    )
+);
+
+
+
+//	TYPOGRAPHY
+
+/**
+* Primary Font Family
+* @group Typography
+*/
+$primary-font-family: 'Open Sans', sans-serif;
+
+/**
+* Secondary Font Family
+* @group Typography
+*/
+$secondary-font-family: 'Open Sans', sans-serif;
+
+/**
+* The font size set on the root body element.
+* @group Typography
+*/
+$base-font-size: em(16px);
+
+/**
+* The base line height determines the basic unit of vertical rhythm.
+* @group Typography
+*/
+$base-line-height: em(24px);
+
+
+
+//	LAYOUT
+
+/**
+* Largest Breakpoint Width
+* @group Layout
+*/
+$papa: 1200px;
+
+/**
+* Midsize Breakpoint Width
+* @group Layout
+*/
+$mama: 768px;
+
+/**
+* Smallest Breakpoint Width
+* @group Layout
+*/
+$baby: 480px;

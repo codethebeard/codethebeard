@@ -1,0 +1,288 @@
+/**
+ *
+ * Mixins and snippets that are used across the site.
+ *
+ * @group general
+ **/
+
+/**
+ * Breakpoint media query usages.
+ * @param {Variable} $bp - Breakpoint variable, ie $papa
+ * @param {String} $determinate ('min') - Whether it is max-width or min-width based
+ * @group layout
+ * @content [Wraps the content in media breakpoint.]
+ * @example scss - Basic Usage
+ *   @include break($papa){
+ *      text-align: right;
+ *   }
+ * @example scss - Reversed Determinate
+ *   @include break($baby, 'max'){
+ *      .class{ text-align: right; }
+ *   }
+ */
+@mixin break( $bp, $determinate: min ) {
+    @media screen and ( $determinate+-width: $bp ) { @content; }
+}
+
+
+/**
+ * Calculates em value based on pixel value
+ * @param {Number} $pxWidth - Size in Pixels
+ * @param {Number} $em-base (16px) - Em base in pixels.
+ * @group Layout
+ * @returns {Number} Em value
+ *
+ * @example scss - Basic Usage.
+ *   height: em(16px); // 1em
+ */
+@function em($pxWidth, $em-base: 16px) {
+    @return $pxWidth / $em-base * 1em;
+}
+
+/**
+ * Calculates rem value based on pixel value.
+ *
+ * @param {Number} $size - Size in Pixels
+ * @group Typography
+ * @returns {Number} Rem value
+ */
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return $remSize * 1rem;
+}
+
+/**
+ * Outputs font sizes in pixels and in rems.
+ *
+ * @param {Number} $size - Size in Pixels
+ * @group Typography
+ * @outputs font-size in pixels and in rems.
+ * @example scss - Basic Usage
+ *   p {
+ *     @include font-size(14px);
+ *   }
+ */
+@mixin font-size($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}
+
+
+/**
+ * Fixes clear bug in certain situations
+ * 
+ * @group layout
+ * @link http://fuseinteractive.ca/blog/understanding-humble-clearfix#.VJ853sAEo Understanding the humble clearfix 
+ * @example scss - Usage
+ *   @extend clearFix; // That's It!
+ */
+%clearFix, .clearfix{
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin clearfix {
+    &:before,
+    &:after {
+      content: "";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+}
+
+/**
+ * An easy way to truncate text with an ellipsis. Requires the element to be block or inline-block.
+ * 
+ * @group Typography
+ * @link http://web-design-weekly.com/2013/05/12/handy-sass-mixins/ Handy Sass Mixins
+ * @example scss - Usage
+ *   .text-truncate {
+ *      @extend text-truncate;
+ *   }
+ */
+%text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/**
+ * Vertical center a block element.
+ * 
+ * @param {String} - Position value.
+ * @group Layout
+ */
+ @mixin v-center($position: relative){
+    top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+    position: $position;
+}
+
+/**
+ * Horizontally center a block element.
+ * 
+ * @param {String} - Position value.
+ * @group Layout
+ */
+ @mixin h-center($position: relative){
+    left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+    position: $position;
+}
+
+
+/**
+ * Hide On Breakpoint
+ *
+ * @param {Variable} $bp - Breakpoint variable, ie $papa
+ * @param {String} $determinate ('min') - Whether it is max-width or min-width based
+ * @group General
+ * @link https://github.com/GumbyFramework/Gumby/blob/master/sass/functions/_visibility.scss Gumby Framework
+ * @example scss - Basic Usage
+ *   .class{
+ *      @include hideOn($papa);
+ *   }
+ *
+ * @example scss - Reversed Determinate
+ *   @include hideOn($baby, 'max');
+ */
+@mixin hideOn($bp, $determinate: min ) {
+    @include break($bp, $determinate) {
+        display: none !important;
+    }
+}
+
+/**
+ * Show On Breakpoint
+ *
+ * @param {Variable} $bp - Breakpoint variable, ie $papa
+ * @param {String} $determinate ('min') - Whether it is max-width or min-width based
+ * @group General
+ * @link https://github.com/GumbyFramework/Gumby/blob/master/sass/functions/_visibility.scss Gumby Framework
+ * @example scss - Basic Usage
+ *   .class{
+ *      @include showOn($papa);
+ *   }
+ *
+ * @example scss - Reversed Determinate
+ *   @include showOn($baby, 'max');
+ */
+@mixin showOn($bp, $determinate: min) {
+    @include break($bp, $determinate) {
+        display: inherit !important;
+    }
+}
+
+/**
+* Color Palette Generator
+* @group Colors
+* @link http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/ Friendlier Color Maps
+* @param {String} $palette - Color name defined in $palettes variable
+* @param {String} $tone ('base') - What tone variant you want to call.
+* @example scss - To use 
+*   color: color(blue,x-light); //Returns lighten($blue,30%);
+*/
+@function palette($palette, $tone: 'base') {
+    @return map-get(map-get($palettes, $palette), $tone);
+}
+
+/**
+ * Creates a gradient. Optionally with a transparent image on top.
+ * 
+ * @param {Color} - Color From.
+ * @param {Color} - Color To.
+ * @param {string} - Optional: Path To Image.
+ * @group Color
+ */
+@mixin gradient($from: #dfdfdf, $to: #f8f8f8, $imagePath:"") {
+    background-color: $to;
+    background-image: url( $imagePath ), -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+    background-image: url( $imagePath ), -webkit-linear-gradient(top, $from, $to);
+    background-image: url( $imagePath ), -moz-linear-gradient(top, $from, $to);
+    background-image: url( $imagePath ), -o-linear-gradient(top, $from, $to);
+    background-image: url( $imagePath ), linear-gradient(to bottom, $from, $to);
+}
+
+
+/**
+*
+* Creates BEM Classes
+*
+* @example scss - Basic Usage
+* .button{}
+* .button--red{} //inherits .button properties with red properties
+*
+* .button{
+*     color: white;
+*     width: 100px;
+*   @include m(red){
+*     background: red;
+*   }
+* }
+*
+*/
+
+// the BEM modifier() mixin
+@mixin m($name) {
+  @at-root {
+    // '&' is a double-wrapped list
+    $selector: nth(&, 1);
+    // direct parent will be the last item in that list
+    $direct-parent: nth($selector, length($selector));
+    // modifier should have all properties of parent
+    #{$direct-parent}--#{$name} { @extend #{$direct-parent}; }
+    // '@content' will be in a nested selector however, if that is the context
+    #{&}--#{$name} { @content; }
+  }
+}
+ 
+// a BEM element() mixin--as has been seen elsewhere
+@mixin e($name) {
+  @at-root {
+    #{&}__#{$name} {
+      @content;
+    }
+  }
+}
+
+@mixin masonry($columns,$gutter-size) {
+    $column-width: 100% / $columns - $gutter-size !global;
+    $gutter: (100 - ($columns * $column-width)) / ($columns - 1) !global;
+
+    #masonry {
+      margin: $gutter 0;
+      
+      .grid-sizer { 
+           width: $column-width;
+       }
+
+       .gutter-sizer { 
+           width: $gutter;
+       }
+      
+      .home-page-article { 
+            width: $column-width; 
+            margin-bottom: $gutter;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// This is where the magic happens
+// set the $gutter-width %
+$gutter-width: 1.5; 

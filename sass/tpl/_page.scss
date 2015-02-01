@@ -1,0 +1,34 @@
+#main-content .post-blog-single{
+	margin-bottom: 70px;
+}
+#main-content{
+	padding: 0px 60px;
+}
+
+.post-title, .page-title{
+	font-size: em(60px);
+	margin-bottom: 60px;
+}
+.page-title{
+	text-align: center;
+}
+.author{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: lighten($grey, 30%);
+	line-height: 1em;
+	margin-bottom: 0;
+}
+#tldr-post{
+	width: 100%;
+	padding: 20px;
+	background: $grey;
+	color: $white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.tldr{
+	h1{
+		margin-bottom: 10px;
+	}
+}

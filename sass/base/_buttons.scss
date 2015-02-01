@@ -1,0 +1,22 @@
+.btn{
+	padding: 5px 10px;
+	display: inline-block;
+	border-radius: 5px;
+	background: $blue;
+	color: $white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: em(10px);
+	cursor: pointer;
+
+	@include m(disabled){
+		background: $grey;
+		cursor: default;
+	}
+	@include m(tldr){
+		border-radius: 0;
+		font-size: em(16px);
+		padding: 8px 13px;
+		margin-bottom: 10px;
+	}
+}
