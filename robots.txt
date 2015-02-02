@@ -1,7 +1,7 @@
 ---
 ---
 {% if site.robots == false %}
-##Testing1
+##Testing2
 User-agent: *
 Disallow: /
 
