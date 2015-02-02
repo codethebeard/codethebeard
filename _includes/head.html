@@ -10,8 +10,8 @@
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | escape }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:image" content="{% if page.featuredImage %}{{ page.featuredImage | prepend: site.url }}{% endif %}" />
-    
+    {% if page.featuredImage %}<meta property="og:image" content="{{ page.featuredImage | prepend: site.url }}" />{% endif %}
+
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
