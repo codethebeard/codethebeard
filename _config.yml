@@ -23,7 +23,7 @@ sass:
     style: :compressed
 
 # SEARCH ENGINE OPTIONS
-robots: false #Allow Search Engines to crawl this site.
+robots: true #Allow Search Engines to crawl this site.
 google_analytics_code: UA-47262665-1
 
 # SITEMAP GENERATOR
