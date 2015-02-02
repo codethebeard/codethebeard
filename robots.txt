@@ -1,8 +1,10 @@
 ---
 ---
 {% if site.robots == false %}
+
 User-agent: *
 Disallow: /
+
 {% endif %}
 
 User-agent: *
