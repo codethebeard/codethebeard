@@ -7,6 +7,6 @@ Disallow: /
 
 {% endif %}
 
-# Testing
+# Dont Follow DBS Directory
 User-agent: *
 Disallow: /dbs/
