@@ -4,3 +4,6 @@
 User-agent: *
 Disallow: /
 {% endif %}
+
+User-agent: *
+Disallow: /dbs/
