@@ -2,7 +2,7 @@
   "name": "codethebeard",
   "version": "2.0.0",
   "description": "A collection of quips, code, and more by Michael Large",
-  "license": "All Rights Reserved regarding Post Copy.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
