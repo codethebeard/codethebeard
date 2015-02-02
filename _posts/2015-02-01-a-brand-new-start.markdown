@@ -2,6 +2,7 @@
 layout: post
 title: "A Brand New Start"
 date: "2015-02-01"
+tags: life goals resolutions 2015
 categories: blog
 excerpt: "Pursuing a brand new start. Goals and dreams for this year."
 published: true
