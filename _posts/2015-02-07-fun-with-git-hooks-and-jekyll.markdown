@@ -4,7 +4,7 @@ title: "Fun with Git Hooks and Jekyll"
 date: "Sat Feb 07 2015"
 categories: blog
 excerpt: 'Host your Jekyll site yourself and still use Git'
-published: false
+published: true
 ---
 
 If you haven't already noticed, I LOVE [Jekyll](http://jekyllrb.com). As a developer, it's simple, fast, and fun to play around with. If you use [Github](http://www.github.com) you can even [host your site for free](https://help.github.com/articles/using-jekyll-with-pages/)! It's pretty awesome.
