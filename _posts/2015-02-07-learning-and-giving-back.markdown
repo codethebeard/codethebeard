@@ -3,7 +3,6 @@ layout: post
 title: "Learning and giving back"
 date: "Sat Feb 07 2015"
 categories: blog
-featuredImage:
 tags: education learning success life
 excerpt: 'Learn as much as you can and help others to learn.'
 published: true
