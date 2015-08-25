@@ -16,5 +16,5 @@ Pardon the name, but if you like the beverage industry you'll understand. A grou
 
 ##Rainbowtize
 
-A simple, stupid, and useless bookmarklet that makes website pages more fun. [See It Here!]("http://codethebeard.com/rainbowtize")
+A simple, stupid, and useless bookmarklet that makes website pages more fun. [See It Here!](http://codethebeard.com/rainbowtize)
 <br><br>
