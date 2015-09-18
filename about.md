@@ -10,18 +10,18 @@ permalink: /about/
 My name is Michael Large. I'm a front-end developer with a passion for art, technology, and food. You can find me traversing through the tubes of the internets, or plugged into the web.
 
 ###Some technology that I LOVE working with.
-- _Javascript_: Node.js/IO.js, Firebase.io, Grunt.js, Gulp.js, Socket.io, the beautiful packages at NPM, Angular.js, Ember.js.
-- _Styling Tech_: Sass, postCSS, browserSync
-- _PHP_: OOP-PHP, WordPress, Drupal
-- _Embedded Systems_: Experimenting with Particle.io, Arduino.
-- _Concepts_: Workflow efficiency improvement. Proper responsive web development with correct image handling, mobile first development, critical css, and proper lazy loading techniques.
+- **Javascript**: Node.js/IO.js, Firebase.io, Grunt.js, Gulp.js, Socket.io, the beautiful packages at NPM, Angular.js, Ember.js.
+- **Styling Tech**: Sass, postCSS, browserSync
+- **PHP**: OOP-PHP, WordPress, Drupal
+- **Embedded Systems**: Experimenting with Particle.io, Arduino.
+- **Concepts**: Workflow efficiency improvement. Proper responsive web development with correct image handling, mobile first development, critical css, and proper lazy loading techniques.
 
 ###Some technology that I would LOVE to work more on.
-- _Javascript_: Angular.js, Ionic ( Hybrid App Development )
-- _PHP_: Laravel and other MVC frameworks.
-- _Ruby_: Ruby & Ruby on Rails.
-- _Native App Development_: Apple ( Swift )
-- _Concepts_: A11y Accessibility Standards, Interactive displays, or integrated systems that people use everyday.
+- **Javascript**: Angular.js, Ionic ( Hybrid App Development )
+- **PHP**: Laravel and other MVC frameworks.
+- **Ruby**: Ruby & Ruby on Rails.
+- **Native App Development**: Apple ( Swift )
+- **Concepts**: A11y Accessibility Standards, Interactive displays, or integrated systems that people use everyday.
 
 You can find [Twitter][ca21e167], [LinkedIn][123a123a123] or [Github][97e94645].
 
