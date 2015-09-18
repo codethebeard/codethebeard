@@ -7,12 +7,11 @@ permalink: /projects/
 
 Currently working on a BUNCH of projects. Will list them here soon.
 
-##FTATB
+##DumbAssLinks
+[DumbAssLinks](https://github.com/codethebeard/dumbasslinks) was bred from my incessant need to automate processes and to increase efficiency. This cool node CLI tool crawls your website and returns dumbass links ( internal links that return with 404s ). That way you can find broken links fast across your entire site and know where to fix them manually. Eventually, I will turn this into a cross platform program with a nicely designed GUI so that anyone ( not just developers ) can use it.
 
-Pardon the name, but if you like the beverage industry you'll understand. A group of my friends and I have started a web series devoted to exposing people to not only the delicious cocktails and drinks across Louisville, but to showcase the amazing people that make them. My role is media production and development. Along with my collegues I produce the concept, organize the creative aspect of the shoots, and edit the video. See more at [FTATB](http://ftatb.com/)
-
-
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5em; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe width="560" height="315" src="https://www.youtube.com/embed/O56o3c3fAcw" frameborder="0" allowfullscreen></iframe></div>
+##DBS Share Count
+[DBS Share Count](https://github.com/DBSInteractive/DBS-Share-Count) is an awesome little OOP-PHP social media count plugin that uses WordPress Transients ( WordPress' caching ) to minimize API requests and reduce load times drastically. I am working on this project with the awesome team at DBS Interactive. Right now, it's built as a simple PHP Class that gets included into your template files. I have plans on turning this into a WordPress Plugin as soon as I get time.
 
 ##Rainbowtize
 

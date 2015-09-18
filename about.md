@@ -7,9 +7,23 @@ permalink: /about/
 
 <img src="{{"/img/man-hair.jpg" | prepend: site.url }}" alt="Michael Large" class="img-left img-medium">
 
-My name is Michael Large. I'm a front-end developer with a passion for art, technology, and food. You can find me traversing through the tubes of the internets, or plugged into the matrix.
+My name is Michael Large. I'm a front-end developer with a passion for art, technology, and food. You can find me traversing through the tubes of the internets, or plugged into the web.
 
-If you are more old-school you can find me on [Twitter][ca21e167], [Github][97e94645], or [CodePen.io][a294be94].
+###Some technology that I LOVE working with.
+- _Javascript_: Node.js/IO.js, Firebase.io, Grunt.js, Gulp.js, Socket.io, the beautiful packages at NPM, Angular.js, Ember.js.
+- _Styling Tech_: Sass, postCSS, browserSync
+- _PHP_: OOP-PHP, WordPress, Drupal
+- _Embedded Systems_: Experimenting with Particle.io, Arduino.
+- _Concepts_: Workflow efficiency improvement. Proper responsive web development with correct image handling, mobile first development, critical css, and proper lazy loading techniques.
+
+###Some technology that I would LOVE to work more on.
+- _Javascript_: Angular.js, Ionic ( Hybrid App Development )
+- _PHP_: Laravel and other MVC frameworks.
+- _Ruby_: Ruby & Ruby on Rails.
+- _Native App Development_: Apple ( Swift )
+- _Concepts_: A11y Accessibility Standards, Interactive displays, or integrated systems that people use everyday.
+
+You can find [Twitter][ca21e167], [LinkedIn][123a123a123] or [Github][97e94645].
 
 I currently work for an awesome full-service digital agency: [DBS>Interactive][306dc1da] ♥
 
@@ -17,3 +31,4 @@ I currently work for an awesome full-service digital agency: [DBS>Interactive][3
   [97e94645]: http://github.com/codethebeard "My public repos"
   [ca21e167]: https://twitter.com/codethebeard "My Twitter Feed"
   [306dc1da]: https://www.dbswebsite.com/ "DBS Interactive"
+  [123a123a123]: https://www.linkedin.com/in/codethebeard "My LinkedIn"

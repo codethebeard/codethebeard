@@ -1,6 +1,7 @@
 #main-content .post-blog-single{
 	margin-bottom: 70px;
 }
+
 #main-content{
 	padding: 0px 60px;
 }
@@ -14,9 +15,11 @@
 		margin-bottom: 60px;
 	}
 }
+
 .page-title{
 	text-align: center;
 }
+
 .author{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -24,6 +27,7 @@
 	line-height: 1em;
 	margin-bottom: 15px;
 }
+
 #tldr-post{
 	width: 100%;
 	padding: 20px;
@@ -35,5 +39,19 @@
 .tldr{
 	h1{
 		margin-bottom: 10px;
+	}
+}
+
+#page-content{
+	em{
+		font-style: italic;
+	}
+
+	strong{
+		font-weight: bold;
+	}
+
+	ul li{
+		list-style-type: circle;
 	}
 }
