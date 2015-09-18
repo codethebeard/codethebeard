@@ -4,6 +4,10 @@
 
 #main-content{
 	padding: 0px 60px;
+	width: 100%;
+	background: lighten($grey, 40%);
+	max-width: 100%;
+	padding: 3em;
 }
 
 .post-title, .page-title{
@@ -53,10 +57,10 @@
 
 	ul {
 		margin-bottom: 1em;
-		
+
 		li{
-			list-style-type: circle;
-			margin-left: 1em;
+			list-style-type: disc;
+			margin-left: 1.5em;
 		}
 	}
 }

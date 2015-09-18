@@ -7,12 +7,12 @@ permalink: /about/
 
 <img src="{{"/img/man-hair.jpg" | prepend: site.url }}" alt="Michael Large" class="img-left img-medium">
 
-My name is Michael Large. I'm a front-end developer with a passion for art, technology, and food. You can find me traversing through the tubes of the internets, or plugged into the web.
+My name is Michael Large. I'm a front-end developer with a passion for art, technology, and food. You can find me at a pub near you or coding programmatically interesting tools that serve no purpose.
 
 ###Some technology that I LOVE working with.
 - **Javascript**: Node.js/IO.js, Firebase.io, Grunt.js, Gulp.js, Socket.io, the beautiful packages at NPM, Angular.js, Ember.js.
 - **Styling Tech**: Sass, postCSS, browserSync
-- **PHP**: OOP-PHP, WordPress, Drupal
+- **PHP**: WordPress, Drupal, Apache/MySQL
 - **Embedded Systems**: Experimenting with Particle.io, Arduino.
 - **Concepts**: Workflow efficiency improvement. Proper responsive web development with correct image handling, mobile first development, critical css, and proper lazy loading techniques.
 
@@ -23,7 +23,7 @@ My name is Michael Large. I'm a front-end developer with a passion for art, tech
 - **Native App Development**: Apple ( Swift )
 - **Concepts**: A11y Accessibility Standards, Interactive displays, or integrated systems that people use everyday.
 
-You can find [Twitter][ca21e167], [LinkedIn][123a123a123] or [Github][97e94645].
+You can find me on [Twitter][ca21e167], [LinkedIn][123a123a123] or [Github][97e94645].
 
 I currently work for an awesome full-service digital agency: [DBS>Interactive][306dc1da] ♥
 

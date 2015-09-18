@@ -23,8 +23,8 @@
     "load-grunt-tasks": "^1.0.0"
   },
   "deployment": {
-    "local": "http://localhost",
-    "staging": "codethebeard.dev/",
+    "local": "codethebeard.loc/",
+    "staging": "codethebeard.loc/",
     "live": "http://codethebeard.com/"
   }
 }
