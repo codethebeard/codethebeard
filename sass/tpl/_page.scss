@@ -51,8 +51,11 @@
 		font-weight: bold;
 	}
 
-	ul li{
-		list-style-type: circle;
-		margin-left: 1em;
+	ul {
+		margin-bottom: 1em;
+		li{
+			list-style-type: circle;
+			margin-left: 1em;
+		}
 	}
 }
