@@ -1,37 +1,23 @@
 ---
 layout: default
-home: true
 ---
 
-<div id="masonry" class="grid-12">
-	<div class="grid-sizer"></div>
-  	<div class="gutter-sizer"></div>
-	<!-- This loops through the paginated posts -->
-	{% for post in paginator.posts %}
+<div class="home">
 
-		<article class="home-page-article words-{{ post.content | number_of_words }} type-{{ post.categories | first}}">
-			{% if post.featuredImage %}
-				<a href="{{ post.url }}">
-					<div class="featured-image" style="background-image: url('{{ post.featuredImage | prepend: site.url }}');"></div>
-				</a>
-			{% endif %}
+  <h1 class="page-heading">Posts</h1>
 
-			<div class="snippet-content">
-				<header class="page-header">
-					<p class="author">
-						Posted <time class="date timeago" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time> with {{ post.content | number_of_words }} words.
-					</p>
-					<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-				</header>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-				<main>
-					<p class="post-excerpt">{{ post.excerpt }}</p>
-				</main>
-			</div>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-		</article>
-	{% endfor %}
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>
-<!-- <div class="home-page-article col-12 clearfix"></div> -->
-
-{% include pagination.html %}
