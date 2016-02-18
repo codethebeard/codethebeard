@@ -1,42 +1,18 @@
-# SITE SETTINGS
-title: CodeTheBeard
-email: m@codethebeard.com
-description: "The little space on the web for front-end developer Michael Large"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+title: Michael Large - Web Dev
+email: m@codethebeard.com
+description: >
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://codethebeard.com" # the base hostname & protocol for your site
 twitter_username: codethebeard
 github_username:  codethebeard
 
-baseurl: ""
-url: "http://codethebeard.com" # the base hostname & protocol for your site DO NOT INCLUDE TRAILING SLASH
-
-timezone: "America/New_York"
-
 # Build settings
 markdown: kramdown
-highlighter: rouge
-
-paginate: 10
-paginate_path: "/blog/:num"
-
-exclude: ["Gruntfile.js","package.json","_js/","node_modules/","img/to_min/","_config-dev.yml"]
-lsi: false # Related Posts Index
-sass:
-    style: :compressed
-
-# SEARCH ENGINE OPTIONS
-robots: true #Allow Search Engines to crawl this site.
-google_analytics_code: UA-47262665-1
-
-# SITEMAP GENERATOR
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-        - "/css/main.css"
-        - "/js/scripts.min.js"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"

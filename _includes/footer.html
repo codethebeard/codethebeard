@@ -1,23 +1,12 @@
-<footer id="site-footer" class="clearfix grid-12 full-width">
-	<div class="copyright">
-		&copy; 2015 Michael Large | CC BY 4.0.
-		<a href="{{ "/humans.txt" | prepend: site.baseurl }}">Iz u Humanz?</a>
-	</div>
+<footer class="site-footer">
+
+  <div class="">
+      {% if site.github_username %}
+      {% include icon-github.html username=site.github_username %}
+      {% endif %}
+      {% if site.twitter_username %}
+      {% include icon-twitter.html username=site.twitter_username %}
+      {% endif %}
+  </div>
+
 </footer>
-
-<script src="{{ "https://code.jquery.com/jquery-1.11.2.min.js" }}"></script>
-<script src="{{ "/js/jquery.masonry.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
-
-
-{% if site.google_analytics_code %}
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', '{{ site.google_analytics_code }}', 'auto');
-		ga('send', 'pageview');
-	</script>
-{% endif %}
