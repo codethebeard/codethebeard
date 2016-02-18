@@ -1,5 +1,0 @@
-baseurl: ""
-url: "http://codethebeard.loc" # the base hostname & protocol for your site DO NOT INCLUDE TRAILING SLASH
-unpublished: true
-
-#detach: true

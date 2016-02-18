@@ -1,17 +1,25 @@
-<header id="site-header" class="grid-12 full-width" role="banner" {% if page.featuredImage %}style="background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ page.featuredImage | prepend: site.url }}'); background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ page.featuredImage | prepend: site.url }}');background-position:50% 50%;background-size:cover;"{% endif %}>
-	
-	<h1 id="dope-header">CodeTheBeard</h1>
-	<h2>A collection of quips, code, and more</h2>
+<header class="site--header">
 
+    <h1 class="site--title hug"><a href="{{ "/" | prepend: site.baseurl }}">Michael Large <span>Front-End Developer</span></a></h1>
 
-	<nav class="nav-collapse col-6 offset-3" role="navigation">
-		<ul>
-			<li><a href="{{ site.url }}">Home</a></li>
-			<li><a href="{{ "/about/" | prepend: site.url }}">About</a></li>
-			<li><a href="{{ "/projects/" | prepend: site.url }}">Projects</a></li>
-			<li><a href="https://github.com/codethebeard/" rel="NOFOLLOW" target="_blank" >GitHub</a></li>
-		</ul>
-	</nav>
-	
+    <div id="nav-toggle" class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="site--nav">
+        <div class="site--nav-wrap">
+            {% for the_page in site.pages %}
+            {% if the_page.title %}
+            <a class="page-link" href="{{ the_page.url | prepend: site.baseurl }}">{{ the_page.title }}</a>
+            {% endif %}
+            {% endfor %}
+            <a class="page-link" href="http://github.com/codethebeard" target="_BLANK">GitHub</a>
+            <a class="page-link" href="http://twitter.com/" target="_BLANK">Twitter</a>
+        </div>
+
+        <div class="icon-michael">{% include icon-michael.svg %}</div>
+    </nav>
 
 </header>

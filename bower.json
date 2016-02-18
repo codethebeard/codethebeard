@@ -1,0 +1,24 @@
+{
+  "name": "codethebeard",
+  "authors": [
+    "Michael Large <m@codethebeard.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "http://codethebeard.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components/",
+    "test",
+    "tests"
+  ]
+}
