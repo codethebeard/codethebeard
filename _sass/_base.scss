@@ -141,6 +141,10 @@ a{
     transition-delay: 8s;
 }
 
+.icon-wave{
+    width: 150px;
+}
+
 .site--nav{
     background: $blue-dark;
     position: fixed;
@@ -225,8 +229,9 @@ a{
 }
 
 .block--text-area{
-    max-width: 500px;
+    max-width: 400px;
     float: right;
+    margin-left: 4em;
 
     h1{
         text-shadow: 2px 2px 0px darken($blue, 10%);
@@ -253,11 +258,29 @@ a{
     @include respond($mama){
         width: 50%;
     }
-    img{width: 100%; display: block;}
+
+    img{
+        width: 100%;
+        display: block;
+    }
 }
 
 .blog-roll{
     @include respond($mama){
         width: 50%;
+    }
+
+    .post-meta{
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .post-title{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    p,
+    .post-excerpt{
+        margin: 0;
     }
 }

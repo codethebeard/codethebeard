@@ -4,7 +4,9 @@ layout: default
 
 <div class="home">
 
-<div class="block block--hero">
+<div class="block block--hero clearfix">
+
+    <div class="icon-wave">{% include icon-wave.svg %}</div>
 
     <div class="block--text-area">
         <h1 class="hug">I write software for the web.</h1>
@@ -21,8 +23,8 @@ layout: default
     <div class="blog-roll">
         {% for post in site.posts %}
         <article class="block block--post">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} · <span class="tags">{{ post.tags | array_to_sentence_string }}</span></span>
-            <h2 class="hug">{{ post.title }}</h2>
+            <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }} · <span class="tags">{{ post.tags | array_to_sentence_string }}</span></p>
+            <h2 class="post-title hug">{{ post.title }}</h2>
             <p class="post-excerpt">{{ post.excerpt | truncatewords: 20 }}</p>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
         </article>
