@@ -16,7 +16,7 @@ Requirements
 - You must have Git and Jekyll installed on your local machine.
 
 
-##Local Setup
+## Local Setup
 
 Create a local git repo of your Jekyll site.
 
@@ -27,7 +27,7 @@ git init
 
 That's it.
 
-##Server Setup
+## Server Setup
 
 This will be different for a lot of you. Basically, you need three directories.
 - A repo directory where your site will live as ONLY a repository.
