@@ -142,7 +142,12 @@ a{
 }
 
 .icon-wave{
+    display: none;
     width: 150px;
+
+    @include respond($mama){
+        display: block;
+    }
 }
 
 .site--nav{
@@ -231,7 +236,10 @@ a{
 .block--text-area{
     max-width: 400px;
     float: right;
-    margin-left: 4em;
+
+    @include respond($mama){
+        margin-left: 4em;
+    }
 
     h1{
         text-shadow: 2px 2px 0px darken($blue, 10%);
