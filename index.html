@@ -4,20 +4,31 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">In Development</h1>
+<div class="block block--hero">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="block--text-area">
+        <h1 class="hug">I write software for the web.</h1>
+        <p class="hug light">...and sometimes other things.</p>
+        <a href="{{ "/resume" | prepend: site.baseurl }}" class="button button--block">Resumé</a>
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="clearfix block--wrap">
+    <div class="portrait" style="background-image: url('{{ "/img/me.jpg" | prepend: site.baseurl }}');">
+        <!-- <img src="{{ "/img/me.jpg" | prepend: site.baseurl }}" alt="" /> -->
+    </div>
+    <div class="blog-roll">
+        {% for post in site.posts %}
+        <article class="block block--post">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} · <span class="tags">{{ post.tags | array_to_sentence_string }}</span></span>
+            <h2 class="hug">{{ post.title }}</h2>
+            <p class="post-excerpt">{{ post.excerpt | truncatewords: 20 }}</p>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+        </article>
+        {% endfor %}
+    </div>
+</div>
+
 
 </div>

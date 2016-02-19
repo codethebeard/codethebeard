@@ -102,3 +102,9 @@
 		@include flex-grid-size('-lg', $cols, $colWidth, $gutter);
 	}
 }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

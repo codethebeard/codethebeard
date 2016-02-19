@@ -25,6 +25,7 @@ html {
     -ms-text-size-adjust: auto;
     -o-text-size-adjust: auto;
     text-size-adjust: auto;
+    background: $grey;
 }
 
 /* Copy & Lists */
@@ -32,7 +33,7 @@ html {
 p {
     line-height: $leading;
     margin-top: $leading;
-    margin-bottom: 0;
+    margin-bottom: $leading;
 }
 
 ul,
@@ -123,4 +124,8 @@ code {
 
 .hug {
     margin-top: 0;
+}
+
+.light{
+    font-weight: 100;
 }
