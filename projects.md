@@ -1,15 +1,19 @@
 ---
 layout: page
-title: Projects
+title: Examples
+description: "Michael Large | Some projects I've been involved with."
 permalink: /projects/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## FTATB
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+One of my passions is video production and writing. I get to do both of those at FTATB a web series about the beverage industry and the people that make it tick. [FTATB](http://fuckthatsatastybeverage.com/)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## DBS Share Count
+
+[DBS Share Count](https://github.com/DBSInteractive/DBS-Share-Count) is an awesome little OOP-PHP social media count plugin that uses WordPress Transients ( WordPress' caching ) to minimize API requests and reduce load times drastically. I am working on this project with the awesome team at DBS Interactive. Right now, it's built as a simple PHP Class that gets included into your template files. I have plans on turning this into a WordPress Plugin as soon as I get time.
+
+## Stupid Bookmarklets
+
+Simple, stupid, and useless bookmarklets that makes website pages more fun. [See It Here!](http://codethebeard.com/bookmarklets/)
+<br><br>
