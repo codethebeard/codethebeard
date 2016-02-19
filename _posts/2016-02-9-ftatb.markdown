@@ -1,0 +1,10 @@
+---
+layout: post
+title: "My fun with a new side project"
+date: "Tues Feb 09 2016"
+categories: blog
+tags: life craftbeer cocktails
+published: false
+---
+
+When you begin to learn something new, whether it's going into a new career field, a new technology, a new language, inherently there will be roadblocks that keep you from moving forward. These roadblocks are a part of the process. It's expected. How you overcome those roadblocks will determine the effectiveness of your progress. In a lot of cases, having someone there to help guide you over those roadblocks make things a little easier.
