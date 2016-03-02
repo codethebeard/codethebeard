@@ -7,7 +7,7 @@ permalink: /projects/
 
 ## Tea Mash
 
-I love doing quick, fun, mini-projects over lunch. Tea Mash came from my love for asking for blended teas at Heine Bros on 4th Street. Plus, I had some really talented friends become interested in the concept and took on some parts of the project. Shoutout to Emily Clark and Tim Wallis. View [Tea Mash]('http://codethebeard.com/teatime') on your mobile device.
+I love doing quick, fun, mini-projects over lunch. Tea Mash came from my love for asking for blended teas at Heine Bros on 4th Street. Plus, I had some really talented friends become interested in the concept and took on some parts of the project. Shoutout to Emily Clark and Tim Wallis. View [Tea Mash]('/teatime') on your mobile device.
 
 ## FTATB
 
