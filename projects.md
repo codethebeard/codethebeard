@@ -5,6 +5,10 @@ description: "Michael Large | Some projects I've been involved with."
 permalink: /projects/
 ---
 
+## Tea Mash
+
+I love doing quick, fun, mini-projects over lunch. Tea Mash came from my love for asking for blended teas at Heine Bros on 4th Street. Plus, I had some really talented friends become interested in the concept and took on some parts of the project. Shoutout to Emily Clark and Tim Wallis. View [Tea Mash]('http://codethebeard.com/teatime') on your mobile device.
+
 ## FTATB
 
 One of my passions is video production and writing. I get to do both of those at FTATB a web series about the beverage industry and the people that make it tick. [FTATB](http://fuckthatsatastybeverage.com/)
