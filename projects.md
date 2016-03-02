@@ -5,9 +5,9 @@ description: "Michael Large | Some projects I've been involved with."
 permalink: /projects/
 ---
 
-## Tea Mash
+## Tea Time
 
-I love doing quick, fun, mini-projects over lunch. Tea Mash came from my love for asking for blended teas at Heine Bros on 4th Street. Plus, I had some really talented friends become interested in the concept and took on some parts of the project. Shoutout to Emily Clark and Tim Wallis. View [Tea Mash](http://codethebeard.com/teatime) on your mobile device.
+I love doing quick, fun, mini-projects over lunch. Tea Time came from my love for asking for blended teas at Heine Bros on 4th Street. Plus, I had some really talented friends become interested in the concept and took on some parts of the project. Shoutout to Emily Clark and Tim Wallis. View [Tea Time](http://codethebeard.com/teatime) on your mobile device.
 
 ## FTATB
 
