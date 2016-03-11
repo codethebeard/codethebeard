@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Examples
+title: Projects
 description: "Michael Large | Some projects I've been involved with."
 permalink: /projects/
 ---
