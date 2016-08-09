@@ -2,10 +2,23 @@
 
     <h1 class="site--title hug"><a href="{{ "/" | prepend: site.baseurl }}">Michael Large <span>Front-End Developer</span></a></h1>
 
-    <div id="nav-toggle" class="toggle-btn">
-        <span></span>
-        <span></span>
-        <span></span>
+        <div class="social-icons clearfix">
+            {% if site.github_username %}
+                {% include icon-github.html username=site.github_username %}
+            {% endif %}
+
+            {% if site.twitter_username %}
+                {% include icon-twitter.html username=site.twitter_username %}
+            {% endif %}
+
+            {% if site.linkedin_username %}
+                {% include icon-linkedin.html username=site.linkedin_username %}
+            {% endif %}
+
+            {% if site.codepen_username %}
+                {% include icon-codepen.html username=site.codepen_username %}
+            {% endif %}
+        </div>
     </div>
 
     <nav class="site--nav">
