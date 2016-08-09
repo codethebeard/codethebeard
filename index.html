@@ -4,33 +4,6 @@ layout: default
 
 <div class="home">
 
-<div class="block block--hero clearfix">
-
-    <div class="icon-wave">{% include icon-wave.svg %}</div>
-
-    <div class="block--text-area">
-        <h1 class="hug">I write software for the web.</h1>
-        <p class="hug light">...and sometimes other things.</p>
-        <a href="{{ "/resume" | prepend: site.baseurl }}" class="button button--block">Resumé</a>
-    </div>
-
-</div>
-
-<div class="clearfix block--wrap">
-    <div class="portrait" style="background-image: url('{{ "/img/me.jpg" | prepend: site.baseurl }}');">
-        <!-- <img src="{{ "/img/me.jpg" | prepend: site.baseurl }}" alt="" /> -->
-    </div>
-    <div class="blog-roll">
-        {% for post in site.posts %}
-        <article class="block block--post">
-            <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }} · <span class="tags">{{ post.tags | array_to_sentence_string }}</span></p>
-            <h2 class="post-title hug">{{ post.title }}</h2>
-            <p class="post-excerpt">{{ post.excerpt | truncatewords: 20 }}</p>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
-        </article>
-        {% endfor %}
-    </div>
-</div>
 
 
 </div>
