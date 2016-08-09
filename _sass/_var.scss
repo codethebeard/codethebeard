@@ -1,0 +1,60 @@
+// Layout
+$papa: 1200px;
+$mama: 768px;
+$baby: 400px;
+
+// Colors
+$grey: #5E5E5F;
+$grey-light: #9F9F9F;
+$grey-dark: #403F3F;
+
+$white: #fdfdfd;
+$black: #222223;
+
+$orange: #CF6F34;
+$orange-dark: #BE6432;
+
+$blue: #02ADB5;
+$blue-dark: lighten(#333D46, 10%);
+$blue-darker: #333D46;
+
+$green: #0ECE6D;
+$green-dark: #629C7F;
+$green-light: #3CFE87;
+
+$fontColor: $black;
+$linkColor: $blue;
+$body-copy: $grey;
+
+// Body Font Vars
+$bodyFontSize: 16px;
+$bodyLineHeight: 1.65;
+// $ratioScale: 1.414; // Augmented Fourth
+$ratioScale: 1.314;
+
+// Header Sizing
+$headerFontSize: .81em;
+$headerLineHeight: 1.35;
+
+// Layout Vars
+$containerSize: 64rem;
+$marginSpace: 1rem;
+
+// Media Query Break Points
+$phone: 22rem;
+$largePhone: 32rem;
+$smallScreen: 48rem;
+$mediumScreen: 60rem; // Currently for Font Scaling Only
+$largeScreen: 90rem;
+$mobileNavBP: $smallScreen; // Break mobile nav styles @
+
+//Max Breakpoints
+$mobileNavBPMax: $mobileNavBP - .001rem;
+$phoneMax: $phone - .001rem;
+$largePhoneMax: $largePhone - .001rem;
+$smallScreenMax: $smallScreen - .001rem;
+$largeScreenMax: $largeScreen - .001rem;
+
+@import url(https://fonts.googleapis.com/css?family=Miriam+Libre|Maitree);
+$san-serif: 'Miriam Libre', sans-serif;
+$serif: 'Maitree', serif;
