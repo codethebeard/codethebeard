@@ -13,18 +13,7 @@
       </div>
     </div>
 
-    {% include footer.html %}
-
-    <script type="text/javascript" src="{{ "/components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
-    <script type="text/javascript">
-        jQuery(document).on("ready", function(){
-            jQuery('#nav-toggle').on("click", function(){
-                jQuery(this).toggleClass("active");
-                jQuery(".site--nav").toggleClass("active");
-                jQuery(".site--header").toggleClass("active");
-            });
-        });
-    </script>
+    <script defer type="text/javascript" src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
   </body>
 
 </html>
