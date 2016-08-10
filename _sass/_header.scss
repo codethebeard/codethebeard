@@ -6,34 +6,76 @@
 	color: $white;
 	border-bottom: 10px solid $blue-dark;
 	position: relative;
+	transition: opacity 1s, max-width 1s;
+	max-width: 21rem;
 
 	@media (min-width:$smallScreen) {
-		width: 40%;
-		height: 100vh;
-		float: left;
-		max-width: 21rem;
+		min-height: 530px;
+		width: 100%;
+		// height: 100vh;
+		// float: left;
+		max-width: 100%;
 		border: none;
 		border-right: 10px solid $blue-dark;
+		position: relative;
+		flex: none;
+
+		&.loaded{
+			max-width: 21rem;
+
+			.site__description{
+				opacity: 1;
+			}
+
+			.site__header__link{
+				top: 0%;
+				left: 0%;
+				position: relative;
+				transform: translate(0%, 0%);
+			}
+
+			.site__logo{
+				  animation: none;
+			}
+
+			.site__title{
+				opacity: 1;
+			}
+		}
 	}
 }
 
 .site__description{
 	padding-right: 1em;
+	margin-top: 4em;
 
 	@media (min-width: $smallScreen) {
 		position: absolute;
 		bottom: 2em;
 		font-size: 0.9em;
-		padding-right: 4em;
+		padding-right: 3.8em;
 		padding-left: 2em;
+		opacity: 0;
+	}
+
+	h2{
+		font-size: 2em;
+
+		@media (min-width: $smallScreen) {
+			font-size: 1.83769em;
+		}
+	}
+
+	p{
+		margin-bottom: 3em;
 	}
 }
 
 .site__header.active{
 	.site__logo{
-		border: none;
-		background: none;
-		transform: scale(1.3) rotate(-13deg);
+		border: $white 3px solid;
+		background: $orange;
+		transform: scale(1.1) rotate(-13deg);
 		box-shadow: none;
 
 		svg path{
@@ -53,6 +95,7 @@
 	text-transform: none;
 	letter-spacing: 1px;
 	font-family: $san-serif;
+	font-weight: normal;
 	text-transform: uppercase;
 	transition: transform 0.8s;
 	transform-origin: left;
@@ -61,6 +104,7 @@
 	@media (min-width:$smallScreen) {
 		transform-origin: center;
 		font-size: 1.8em;
+		opacity: 0;
 	}
 }
 
@@ -77,6 +121,11 @@
 		margin-top: 2em;
 		display: block;
 		text-align: center;
+
+		top: 44%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
 	}
 }
 
@@ -93,6 +142,7 @@
 	background: $white;
 	border-radius: 50%;
 	overflow: hidden;
+	animation: rotating 500ms linear infinite;
 	@media (max-width:$smallScreen) {
 		box-shadow: 0em 0.1em 1em  darken($blue-darker, 10%);
 	}
@@ -124,7 +174,7 @@
 .social-icons{
 	.icon-wrap{
 		display: inline-block;
-		margin-right: 0.7em;
+		margin-right: 1.7em;
 		width: 1.5em;
 
 		svg path{
@@ -160,4 +210,21 @@
 		transform-origin: center;
 		transform: rotate(0deg);
 	}
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }

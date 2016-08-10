@@ -8,7 +8,7 @@
     cursor: pointer;
     transition: opacity .4s,transform .4s;
     outline: none !important;
-    z-index: 1;
+    z-index: 200;
 
     span{
         background: $white;
@@ -24,7 +24,7 @@
         }
 
         @media (min-width:$smallScreen) {
-            background: $blue-darker;
+            background: $orange;
         }
     }
 
@@ -53,6 +53,7 @@
     left: 100%;
     transition: left 1s;
     padding-top: 5em;
+    z-index: 100;
 
     &.active{
         left: 0;

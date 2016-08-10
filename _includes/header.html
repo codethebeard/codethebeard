@@ -1,11 +1,11 @@
-<header class="site__header">
-    <a class="site__header__link" href="{{ "/" | prepend: site.baseurl }}">
+<header id="site-header" class="site__header">
+    <a class="site__header__link page-link" href="{{ site.url }}">
         <div class="site__logo">{% include beard-svg.svg %}</div>
         <h1 class="site__title">Michael Large</h1>
     </a>
 
     <div class="site__description">
-        <h2>Making the web great again!</h2>
+        <h2>Make <del>America</del> <span class="text-emphasis">the web</span> great again!</h2>
         <p>Yo! My name is Michael Large. I'm a front-end developer currently pushing pixels with some great peeps at <a class="dotted-anchor" href="https://dbswebsite.com/">DBS Interactive</a>.</p>
 
         <div class="social-icons clearfix">
@@ -41,9 +41,3 @@
     </nav>
 
 </header>
-
-<div id="nav-toggle" class="toggle-btn">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>

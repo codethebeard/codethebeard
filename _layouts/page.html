@@ -1,13 +1,16 @@
 ---
 layout: default
 ---
-<article class="block post">
+<article class="page template-page">
 
-  <header class="post-header">
-    <h1 class="post-title hug">{{ page.title }}</h1>
+  <header class="page__header">
+    {% if page.featured_image %}
+      <img src="{{ page.featured_image | prepend: site.baseurl }}" alt="Featured Image" class="page__featured-image">
+    {% endif %}
+    <h1 class="page__title">{{ page.title }}</h1>
   </header>
 
-  <div class="post-content">
+  <div class="page__content">
     {{ content }}
   </div>
 

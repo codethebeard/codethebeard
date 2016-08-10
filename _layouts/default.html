@@ -4,13 +4,22 @@
   {% include head.html %}
 
   <body>
+    
+    <div id="nav-toggle" class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 
-    {% include header.html %}
+    <div class="site__wrapper">
+      {% include header.html %}
 
-    <div class="page--content">
-      <div class="page--inner">
-        {{ content }}
+      <div class="page__content">
+        <div class="page__inner">
+          {{ content }}
+        </div>
       </div>
+
     </div>
 
     <script defer type="text/javascript" src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>

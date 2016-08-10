@@ -15,11 +15,13 @@ html {
 }
 
 body {
-	font-weight: 400;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
 	color: $fontColor;
 	font-size: $bodyFontSize;
 	line-height: $bodyLineHeight;
-	font-family: $serif;
+	font-family: $san-serif;
+	letter-spacing: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,10 +30,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	margin-bottom: $marginSpace * .6;
 	font-family: $san-serif;
-	text-transform: uppercase;
+	letter-spacing: 1px;
 	font-weight: bold;
-	letter-spacing: 2px;
-	text-shadow: 0px 1px 3px darken($blue-darker, 10%);
+}
+
+.site__header{
+	h1, h2, h3, h4, h5, h6{
+		text-transform: uppercase;
+		font-weight: normal;
+		text-shadow: 0px 1px 3px darken($blue-darker, 10%);
+	}
 }
 
 .h1, h1 {
@@ -274,4 +282,8 @@ table.plain {
 	overflow: visible;
 	position: static;
 	width: auto;
+}
+
+.text-emphasis{
+	color: $orange;
 }

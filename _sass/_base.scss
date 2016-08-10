@@ -1,5 +1,6 @@
-body{
+html, body{
 	background: $white;
+	height: 100%;
 }
 
 a{
@@ -13,5 +14,64 @@ a{
 	&.dotted-anchor{
 		text-decoration: none;
 		border-bottom: 1px dotted $blue;
+	}
+}
+
+.portfolio{
+	width: 100%;
+}
+
+.profile{
+	padding: 1em;
+
+	a{
+		display: block;
+	}
+}
+
+.home{
+	@media (min-width:$smallScreen) {
+		padding: 3em;
+	}
+}
+
+.portfolio__item{
+	width: 100%;
+	float: left;
+	padding: 1em;
+	position: relative;
+
+	@media (min-width: 1080px) {
+		width: 50%;
+	}
+
+}
+
+.portfolio__image{
+	width: 100%;
+}
+
+.page__featured-image{
+	margin-bottom: 2em;
+	width: 100%;
+}
+
+.page__title{
+	color: $blue-dark;
+	text-shadow: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 2em;
+
+	&:after{
+		content: "";
+		height: 4px;
+		width: 2em;
+		background: $orange;
+		position: absolute;
+		bottom: -1em;
+		left: 0;
+		border-radius: 5px;
 	}
 }

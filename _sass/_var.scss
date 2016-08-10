@@ -28,7 +28,7 @@ $body-copy: $grey;
 
 // Body Font Vars
 $bodyFontSize: 16px;
-$bodyLineHeight: 1.65;
+$bodyLineHeight: 1.8;
 // $ratioScale: 1.414; // Augmented Fourth
 $ratioScale: 1.314;
 
@@ -55,6 +55,7 @@ $largePhoneMax: $largePhone - .001rem;
 $smallScreenMax: $smallScreen - .001rem;
 $largeScreenMax: $largeScreen - .001rem;
 
-@import url(https://fonts.googleapis.com/css?family=Miriam+Libre|Maitree);
-$san-serif: 'Miriam Libre', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url(https://fonts.googleapis.com/css?family=Maitree);
+$san-serif: 'Lato', 'Helvetica', 'Arial', 'Century Gothic', sans-serif;
 $serif: 'Maitree', serif;
