@@ -124,14 +124,44 @@ hr {
 
 blockquote {
 	box-sizing: border-box;
-	margin: 0 0 $marginSpace -1.2em;
-	padding: 0 0 0 1.6em;
-	border-left: $grey-light 0.6em solid;
+	padding: 1em 1em;
+	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+    line-height: 1.4;
+	border-top: $orange 3px solid;
+	border-bottom: $orange 3px solid;
+	color: $orange;
+	position: relative;
+	&:before{
+		content: '\0022';
+		color: lighten($orange, 45%);
+		font-size: 10em;
+		position: absolute;
+		left: 0;
+		top: -0.35em;
+		z-index: 0;
+		transform: rotate(-12deg);
+	}
+
+	@media (min-width:$smallScreen) {
+		margin: 1em 3em;
+	}
+}
+
+blockquote.small{
+	@media (min-width:$smallScreen) {
+		width: 50%;
+		float: right;
+	}
 }
 
 blockquote p {
-	margin: 0 0 0.8em;
-	font-style: italic;
+	margin-bottom: 0;
+	font-size: 1.5em;
+	text-align: center;
+	position: relative;
+	z-index: 5;
 }
 
 blockquote small {
@@ -139,6 +169,7 @@ blockquote small {
 	margin: 0 0 0.8em 1.5em;
 	font-size: 0.9em;
 }
+
 blockquote small:before {
 	content: '\2014 \00A0';
 }
