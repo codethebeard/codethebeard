@@ -8,12 +8,19 @@ featured_image: '/images/keyboard.jpg'
 
 <div class="post__wrap">
 	{% assign posts = site.posts %}
-	{% for post in posts %}
-	<div class="post__item">
-		<h2 class="post__title">{{ post.title }}</h2>
-		<p class="post__meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-		<div class="post__excerpt">{{ post.excerpt | truncatewords: 20 }}</div>
-		<a class="post__link button" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
-	</div>
-	{% endfor %}
+	{% if posts.length > 0 %}
+		{% for post in posts %}
+		<div class="post__item">
+			<h2 class="post__title">{{ post.title }}</h2>
+			<p class="post__meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+			<div class="post__excerpt">{{ post.excerpt | truncatewords: 20 }}</div>
+			<a class="post__link button" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+		</div>
+		{% endfor %}
+	{% else %}
+		<div class="post__item">
+			<h2 class="post__title">Sorry. No posts yet.</h2>
+			<a href="https://github.com/codethebeard" class="button">Check Out My GitHub</a>
+		</div>
+	{% endif %}
 </div>

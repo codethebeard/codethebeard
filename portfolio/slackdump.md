@@ -6,7 +6,7 @@ permalink: /portfolio/slackdump/
 featured_image: '/images/slackdump.jpg'
 ---
 
-A little bit about it all.
+It's been three years since the awesome guys at Tiny Speck created their internal messaging tool, Slack.
 
 {% highlight javascript %}
 
