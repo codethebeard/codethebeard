@@ -24,7 +24,7 @@ a{
 	text-decoration: none;
 	padding: 0.3em 0.5em;
 	box-shadow: 5px 5px 0px darken($blue, 20%);
-	margin-top: 2em;
+	margin-top: 0.5em;
 	margin-bottom: 1em;
 	display: inline-block;
 	transition: all 0.2s;
@@ -46,6 +46,7 @@ a{
 
 .portfolio{
 	width: 100%;
+	margin-bottom: 2em;
 }
 
 .profile{
@@ -58,7 +59,8 @@ a{
 
 .home{
 	@media (min-width:$smallScreen) {
-		padding: 3em;
+		padding: 2em;
+		padding-top: 1em;
 	}
 }
 
@@ -158,7 +160,7 @@ a{
 
 	&:before{
 		content: "";
-		background: linear-gradient( -45deg, $orange, $orange-dark );
+		background: linear-gradient( -45deg, $orange, $blue );
 		display: block;
 		position: absolute;
 		top: 0;
@@ -170,7 +172,7 @@ a{
 }
 
 .portfolio__item:nth-child(2n+1) .portfolio__item__info:before{
-	background: linear-gradient( -45deg, $blue, $blue-dark );
+	background: linear-gradient( -45deg, $green, $orange );
 }
 
 .info__title{
@@ -190,3 +192,18 @@ a{
 }
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.instagram-embed{
+	position: relative;
+	max-width: 350px;
+	margin-bottom: 2em;
+	margin-top: 0em;
+
+	&.float-right{
+		margin-left: 1em;
+	}
+
+	&.float-left{
+		margin-right: 1em;
+	}
+}

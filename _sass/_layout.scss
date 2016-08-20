@@ -6,6 +6,10 @@
 	}
 }
 
+.page-break{
+	display: none;
+}
+
 .page__content{
 	width: 100%;
 	color: $blue-dark;
@@ -20,4 +24,25 @@
 .page, .post{
 	max-width: 800px;
 	margin: 0 auto;
+}
+
+.float-right{
+	float: none;
+	@media (min-width: 920px) {
+		float: right;
+	}
+}
+
+.float-left{
+	float: none;
+	@media (min-width: 920px) {
+		float: left;
+	}
+}
+
+.clear{
+	clear: both;
+	min-height: 1px;
+	position: relative;
+	display:block;
 }

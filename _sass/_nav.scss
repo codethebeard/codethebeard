@@ -63,7 +63,8 @@
         }
 
         .icon-michael{
-            right: 60%;
+            right: 40%;
+			opacity: 1;
         }
 
         .page-link{
@@ -101,8 +102,9 @@
 .icon-michael{
     width: 15em;
     transform: rotate(65deg);
-    right: 170%;
+    right: 200%;
     position: absolute;
-    transition: right 3s;
+    transition: right 3s, opacity 1s;
     transition-delay: 8s;
+	opacity: 0;
 }

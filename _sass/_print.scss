@@ -1,0 +1,39 @@
+.site__header,
+.toggle-btn,
+.button,
+.page__featured-image,
+.instagram-embed{
+	display: none;
+}
+
+body{
+	font-size: 14px;
+}
+
+.page__content{
+	font-size: 0.9em;
+}
+
+.post__title,
+.page__title{
+	margin-bottom: 0.5em;
+
+	&:after{
+		display: none;
+	}
+}
+
+a:after{
+	content: "( " attr(href) " )";
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
+.page-break{
+	display: block;
+	page-break-before: always;
+}
+
+p, strong, em{
+	page-break-inside: avoid;
+}

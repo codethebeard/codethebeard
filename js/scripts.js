@@ -8,6 +8,7 @@ window.addEventListener('load', function(){
 	var siteHeader = document.querySelectorAll('.site__header');
 	var navToggle = document.getElementById('nav-toggle');
 
+	// Handles Navigation and active states.
 	navToggle.addEventListener('click', function(){
 		this.classList.toggle('active');
 		siteNav[0].classList.toggle('active');
