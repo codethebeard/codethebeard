@@ -139,6 +139,23 @@
 
 }
 
+.in-progress{
+	background: #E82F1A;
+	color: white;
+	padding: 0.3em;
+	text-align: center;
+	display: block;
+	width: 120%;
+	position: fixed;
+	z-index: 4000;
+	left: -10%;
+	right: -10%;
+	top: 20vh;
+	transform: rotate(-6deg);
+	text-transform: uppercase;
+	border: white 5px dotted;
+}
+
 .social-icons{
 	.icon-wrap{
 		display: inline-block;
