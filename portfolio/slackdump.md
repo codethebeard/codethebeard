@@ -18,6 +18,8 @@ Anytime we get a warning from slack that we are about to pass our upload quota, 
 
 Then I just click the toolbar in the top of my desktop to run the utility. It then looks through all of the public channels and any files that I uploaded in personal messages and deletes them one-by-one. It doesn't handle private channels or private messages that I'm not associated with. The enterprise version of Slack does allow for access to those channels and this code could theoretically delete from those as well.
 
+<img src="/images/slackdump-2.jpg" alt="How we use Dump" class="page__featured-image">
+
 ## Technical Details
 
 I work on these projects in my free-time. It's pretty rare that I have free-time. Currently this [project](https://github.com/codethebeard/dump) is a work in progress but I've made some good progress on it so far. Right now the active code that deletes the files is setting in a bash script on my desktop so I still need to translate it into this application. It's built on [Electron](electron.atom.io) a framework for building cross-platform hybrid desktop applications and toolbars. Which, coincidentally, Slack is built upon.
@@ -27,8 +29,10 @@ I work on these projects in my free-time. It's pretty rare that I have free-time
 I want to finish this project soon and I have some goals for what I want to do with it.
 
 * <del>oAuth Single Sign-on</del> - *completed*
+* Shore up UI design
 * One Step File Deletion
 * Automatic #general channel notification
 * Don't delete files that were uploaded in the past 24 hours.
 * Cron that automatically runs the script based on settings.
 * Simple binary download to use on your own team!
+* Update this case study with good documentation. :)
