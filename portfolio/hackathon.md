@@ -34,6 +34,9 @@ Yeah. I know, I say "mobile" weird. That's what happens when you don't sleep for
 
 I can't say that I have ever had so much fun writing code under pressure. I loved my teammates, they were great to work with. I strengthened friendships, created new ones. I was tired, stressed, excited, and inspired to push myself to create something awesome in no time. We did a good job, I'm proud to say.
 
+
+<img src="/images/fixofwater.jpg" class="page__featured-image" alt="Fix Of Water Team">
+
 ## The technical stuff
 
 We started everything with a [Intel Edison IOT](https://software.intel.com/en-us/iot/hardware/edison). This acted as our web server for connecting to the client-side application as well as running our NodeJS back-end. Nelson and Jose worked on this and did a fantastic job getting everything setup. Next, we connected the Edison board to a FirstBuild project called the [GreenBean Maker Module](https://cocreate.firstbuild.com/mylescaley/greenbean-maker-module/activity/). This interfaces with the refrigerator via an ethernet cable and gives us access to the 'brain' of the fridge. Just for fun, we also added a small relay to allow the user to turn off and on a kitchen light with their phone.
