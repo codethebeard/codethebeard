@@ -6,6 +6,8 @@ permalink: /portfolio/hackathon/
 featured_image: '/images/gehackathon.jpg'
 ---
 
+<a href="https://github.com/codethebeard/firstbuild_hackathon" class="button" alt="Checkout the code">View GitHub</a>
+
 Last year in April, I participated with three other teammates in FirstBuild's first Hackathon at their GE Microfactory in Louisville. We had 33 hours to come up with a concept around "Hacking The Home" to compete against 300+ participants for over $60,000 in prizes. Since GE innovates and manufactures appliances for the home, it seemed prudent to "hack" one of their appliances.
 
 I joined with three other talented people: Mark Shelton, Nelson Tanquero, and Jose Padron. Together we comprised a team of Front-End and Back-End Engineers. Nelson and Jose on Hardware and low-level integration; Mark and I on the client side interactions and design.
@@ -35,7 +37,7 @@ Yeah. I know, I say "mobile" weird. That's what happens when you don't sleep for
 I can't say that I have ever had so much fun writing code under pressure. I loved my teammates, they were great to work with. I strengthened friendships, created new ones. I was tired, stressed, excited, and inspired to push myself to create something awesome in no time. We did a good job, I'm proud to say.
 
 
-<img src="/images/fixofwater.jpg" class="page__featured-image" alt="Fix Of Water Team">
+<img src="/images/fixofwater.jpg" alt="Fix Of Water Team">
 
 ## The technical stuff
 

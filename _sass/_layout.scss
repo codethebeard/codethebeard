@@ -22,8 +22,16 @@
 }
 
 .page, .post{
-	max-width: 800px;
+	max-width: 680px;
 	margin: 0 auto;
+}
+
+.page__portfolio .page{
+	max-width: 100%;
+}
+
+.page__about .page{
+	max-width: 800px;
 }
 
 .float-right{
@@ -45,4 +53,14 @@
 	min-height: 1px;
 	position: relative;
 	display:block;
+}
+
+.content{
+	img{
+		margin-top: 1em;
+		margin-bottom: 1em;
+		width: calc(100% + 8em);
+		position: relative;
+		left: -4em;
+	}
 }

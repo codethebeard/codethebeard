@@ -6,7 +6,7 @@ permalink: /portfolio/teatime/
 featured_image: '/images/teatime.jpg'
 ---
 
-<a href="https://codethebeard.com/teatime" class="button">View Website</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/codethebeard/teatime" class="button">View Github</a>
+<a href="http://codethebeard.com/teatime" class="button">View Website</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/codethebeard/teatime" class="button">View Github</a>
 
 As you have probably read before, I like to challenge myself to do little mini-hack-a-thons to test what I can do in a short amount of time. These hack-a-thons usually take place within my lunch break between working on responsive websites, writing technical specifications for projects, or the good 'ol RFP meetings. It's a good break between the sometimes monotonous and tedious work that I occasionally have to do.
 
@@ -18,7 +18,7 @@ I did that for a few weeks until she finally joked, "Hey, you should make a spin
 
 The technology is really simple. It just uses an array of the different tea names and iterates through them twice to build two lists of teas that we can matchup. Each list item has a height of 3 ems. The javascript picks a random number between 1 and the amount of teas available. Then animates the list up or down by increments of 3 ems to show the tea chosen.
 
-<img src="/images/teatime-2.jpg" class="page__featured-image" alt="Tea Time Example of wireframe">
+<img src="/images/teatime-2.jpg" alt="Tea Time Example of wireframe">
 
 Pretty simple. It also does some simple Event Tracking so that I can see how random the tea combinations actually are.
 

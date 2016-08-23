@@ -14,7 +14,7 @@
     <div class="site__wrapper">
       {% include header.html %}
 
-      <div class="page__content">
+      <div class="page__content page__{{ page.url | slugify }}">
         <div class="page__inner">
           {{ content }}
         </div>
