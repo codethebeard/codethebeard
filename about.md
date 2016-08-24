@@ -37,5 +37,3 @@ I am engaged to the love of my life, Emma Wilson. We have a dog together and his
 Plus, she puts up with my long nights at the office, where I get to make cool things for the web at [DBS Interactive](https://www.dbswebsite.com/portfolio/)
 
 Well, thanks for learning a little about me. Maybe we can be friends.
-
-<a href="/images/Michael-Large-Resume.pdf" download class="button">Download Resumé</a>
