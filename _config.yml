@@ -2,15 +2,11 @@
 title: Michael Large
 email: m@codethebeard.com
 description: >
-baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://codethebeard.com" # the base hostname & protocol for your site
 twitter_username: codethebeard
 github_username:  codethebeard
 linkedin_username:  codethebeard
 codepen_username:  codethebeard
-
-# Build settings
-markdown: kramdown
 
 # Where things are
 source:       .
@@ -56,7 +52,7 @@ baseurl: "" # does not include hostname
 show_dir_listing: false
 
 # Outputting
-permalink:     date
+permalink:     /blog/:year/:month/:day/:title/
 paginate_path: /page:num
 timezone:      null
 
@@ -82,4 +78,3 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   input:          GFM
   hard_wrap:      false
-  footnote_nr:    1
