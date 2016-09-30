@@ -34,6 +34,4 @@ Frequently, I take on projects that push me into a place I've never been before 
 
 I am engaged to the love of my life, Emma Wilson. We have a dog together and his name is Parker. They both are the coolest. I couldn't ask for a better partner in life.
 
-Plus, she puts up with my long nights at the office, where I get to make cool things for the web at [DBS Interactive](https://www.dbswebsite.com/portfolio/)
-
 Well, thanks for learning a little about me. Maybe we can be friends.
