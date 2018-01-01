@@ -2,15 +2,27 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home portfolio">
 
-	<!-- <h1 class="in-progress">Not Ready Yet... just wait a day.</h1> -->
+	<div class="post__wrap">
+		{% assign posts = site.posts %}
+		{% if posts.size > 0 %}
+		{% for post in posts %}
 
-	{% assign pages = site.pages %}
-	{% for page in pages %}
-		{% if page.permalink == '/portfolio/' %}
-			{{ page.content }}
+		<div class="portfolio__item">
+			<a href="{{ post.url | prepend: site.baseurl }}" class="portfolio__link">
+				<img src="{{ post.featured_image | prepend: site.baseurl }}" alt="{{ post.title }}" class="portfolio__image">
+				<h3>{{ post.title }}</h3>
+			</a>
+		</div>
+
+		{% endfor %}
+		{% else %}
+		<div class="post__item">
+			<h2 class="post__title">Sorry. No posts yet.</h2>
+			<a href="https://github.com/codethebeard" class="button">Check Out My GitHub</a>
+		</div>
 		{% endif %}
-	{% endfor %}
+	</div>
 
 </div>
