@@ -130,8 +130,18 @@ a{
 	position: relative;
 	overflow: hidden;
 	display: block;
+	text-decoration: none;
+
+	h1{
+		font-size: 1em;
+		text-decoration: none;
+		color: $blue-dark;
+		margin-top: 0.3em;
+	}
 
 	&:hover{
+		text-decoration: none;
+
 		.portfolio__item__info{
 			right: 0;
 		}

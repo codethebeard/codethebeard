@@ -2,7 +2,6 @@
 layout: post
 title: We placed 2nd at GE's Hack-The-Home Hackathon!
 description: "We placed 2nd at GE's Hack-The-Home Hackathon! | Michael Large"
-permalink: /portfolio/hackathon/
 featured_image: '/images/gehackathon.jpg'
 ---
 

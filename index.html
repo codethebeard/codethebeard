@@ -4,15 +4,15 @@ layout: default
 
 <div class="home portfolio">
 
-	<div class="post__wrap">
-		{% assign posts = site.posts %}
+	<div class="post__wrap clearfix">
+		{% assign posts = paginator.posts %}
 		{% if posts.size > 0 %}
 		{% for post in posts %}
 
 		<div class="portfolio__item">
 			<a href="{{ post.url | prepend: site.baseurl }}" class="portfolio__link">
 				<img src="{{ post.featured_image | prepend: site.baseurl }}" alt="{{ post.title }}" class="portfolio__image">
-				<h3>{{ post.title }}</h3>
+				<h1>{{ post.title }}</h1>
 			</a>
 		</div>
 
@@ -22,6 +22,21 @@ layout: default
 			<h2 class="post__title">Sorry. No posts yet.</h2>
 			<a href="https://github.com/codethebeard" class="button">Check Out My GitHub</a>
 		</div>
+		{% endif %}
+	</div>
+
+	<!-- Pagination links -->
+	<div class="pagination">
+		{% if paginator.previous_page %}
+		<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+		{% else %}
+		<span class="previous">Previous</span>
+		{% endif %}
+		<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+		{% if paginator.next_page %}
+		<a href="{{ paginator.next_page_path }}" class="next">Next</a>
+		{% else %}
+		<span class="next ">Next</span>
 		{% endif %}
 	</div>
 
