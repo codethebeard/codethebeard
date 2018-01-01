@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: post
 title: Dump - A Desktop Utility
 description: "Dump - A simple desktop toolbar to delete Slack files in bulk"
-permalink: /portfolio/dump/
 featured_image: '/images/slackdump.jpg'
 ---
 

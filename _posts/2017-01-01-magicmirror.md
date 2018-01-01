@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: post
 title: Magic Mirror
 description: "Magic Mirror - An embedded, internet of things, project"
-permalink: /portfolio/magicmirror/
 featured_image: '/images/magicmirror.jpg'
 ---
 

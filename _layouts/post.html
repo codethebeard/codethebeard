@@ -2,24 +2,22 @@
 layout: default
 ---
 
-
-
 <article class="post template-post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post__header">
     {% if page.featured_image %}
       <img src="{{ page.featured_image | prepend: site.baseurl }}" alt="Featured Image" class="page__featured-image">
     {% endif %}
-    <h1 class="post__title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post__meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
   </header>
 
   <div class="post__content" itemprop="articleBody">
+    <h1 class="post__title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post__meta">{{ page.date | date: "%b %-d, %Y" }}</p>
     {{ content }}
   </div>
 
   <aside class="back-to-blog">
-    <a href="{{ '/blog/' | prepend: site.baseurl }}" class="button">Back To Blog</a>
+    <a href="{{ '/' | prepend: site.baseurl }}" class="button">Back To Blog</a>
   </aside>
 
 </article>

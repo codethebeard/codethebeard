@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: About me
-description: "Michael Large"
+description: "Michael VanDyke"
 permalink: /about/
 featured_image: '/images/michael-small.jpg'
 ---
