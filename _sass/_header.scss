@@ -1,11 +1,10 @@
 .site__header{
-	background: linear-gradient( 120deg, $blue-dark, $blue-darker);
+	background: #EEEEEE;
 	overflow: hidden;
 	padding: 1em;
 	width: 100%;
 	padding-bottom: 2em;
-	color: $white;
-	border-bottom: 10px solid $blue-dark;
+	color: $black;
 	position: relative;
 	transition: opacity 1s, max-width 1s;
 
@@ -14,7 +13,6 @@
 		width: 100%;
 		max-width: 21rem;
 		border: none;
-		border-right: 10px solid $blue-dark;
 		position: relative;
 		flex: none;
 	}
@@ -64,7 +62,7 @@
 
 .site__title{
 	display: inline-block;
-	color: $white;
+	color: $black;
 	font-size: 1.5em;
 	text-transform: none;
 	letter-spacing: 1px;
@@ -73,7 +71,6 @@
 	text-transform: uppercase;
 	transition: transform 0.8s;
 	transform-origin: left;
-	text-shadow: 0px 1px 3px darken($blue-darker, 10%);
 
 	@media (min-width:$smallScreen) {
 		transform-origin: center;
@@ -82,7 +79,7 @@
 }
 
 .site__header__link{
-	color: $white;
+	color: $black;
 	text-decoration: none;
 	display: inline-block;
 	margin-bottom: 2em;
@@ -163,7 +160,7 @@
 		width: 1.5em;
 
 		svg path{
-			fill: $white;
+			fill: $black;
 			transition: fill 500ms;
 		}
 
