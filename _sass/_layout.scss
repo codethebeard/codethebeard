@@ -33,6 +33,11 @@
 	text-align: center;
 }
 
+.gallery{
+	position: relative;
+	overflow: hidden;
+}
+
 .float-right{
 	float: none;
 	@media (min-width: 920px) {

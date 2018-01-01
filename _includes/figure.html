@@ -1,0 +1,6 @@
+<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="{{ include.largeimage | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{ include.datasize }}">
+        <img src="{{ include.smallimage | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ include.alt }}" />
+    </a>
+    <figcaption itemprop="caption description">{{ include.caption }}</figcaption>
+</figure>

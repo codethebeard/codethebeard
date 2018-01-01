@@ -27,6 +27,12 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" media="print" href="{{ "/css/print.css" | prepend: site.baseurl }}">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" media="print" href="{{ '/css/print.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/js/photoswipe-4.1.2/photoswipe.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/js/photoswipe-4.1.2/default-skin/default-skin.css' | prepend: site.baseurl }}">
 </head>
