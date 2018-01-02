@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fall in the Parklands
-description: "Exploring Beckley Creek Park, Louisville KY"
+description: "Escaping the sounds of the city for some serenity at Beckley Creek Park."
 thumbnail: '/images/posts/photo-adventure-at-beckley-creek-park/l/beckley-walking-path_400x267.jpg'
 featured: false
 ---
