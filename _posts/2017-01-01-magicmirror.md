@@ -3,6 +3,8 @@ layout: post
 title: Magic Mirror
 description: "Magic Mirror - An embedded, internet of things, project"
 featured_image: '/images/magicmirror.jpg'
+thumbnail: '/images/magicmirror.jpg'
+featured: true
 ---
 
 <a href="https://github.com/EmbedWithUs/mirror-magic" class="button">View Github</a>

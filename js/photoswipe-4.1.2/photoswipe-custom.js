@@ -28,7 +28,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
             linkEl = figureEl.children[0]; // <a> element
 
-            size = linkEl.getAttribute('data-size').split('x');
+            size = [0,0];
 
             // create slide object
             item = {
@@ -189,6 +189,21 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         // Pass data to PhotoSwipe and initialize it
         gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+
+        gallery.listen('gettingData', function(index, item) {
+            var src = item.src;
+            var regex = /((\d+)(?=\.?))/gi; // Get the width and height values off of the image name.
+
+            try{
+                var width = src.match(regex)[0];
+                var height = src.match(regex)[1];
+                item.w = width;
+                item.h = height;
+            }catch(e){
+                console.error("No Width or Height listed in filename. Must be filename_800x1000.jpg. " + e);
+            }
+
+        });
         gallery.init();
     };
 

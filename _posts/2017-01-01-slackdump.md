@@ -3,6 +3,8 @@ layout: post
 title: Dump - A Desktop Utility
 description: "Dump - A simple desktop toolbar to delete Slack files in bulk"
 featured_image: '/images/slackdump.jpg'
+thumbnail: '/images/slackdump.jpg'
+featured: true
 ---
 
 <a href="https://github.com/codethebeard/dump" class="button" alt="Checkout the code">View GitHub</a>

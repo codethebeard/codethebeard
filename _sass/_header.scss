@@ -17,9 +17,9 @@
 		min-height: 530px;
 		width: 100%;
 		max-width: 18rem;
-		border: none;
 		position: relative;
 		flex: none;
+		border-right: solid 5px rgba(201,201,201, 0.6);
 	}
 }
 
@@ -64,6 +64,11 @@
 		display: block;
 		margin-bottom: 1em;
 	}
+}
+
+.post__header{
+	margin-left: 3rem;
+	margin-right: 3rem;
 }
 
 .in-progress{

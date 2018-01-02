@@ -3,6 +3,8 @@ layout: post
 title: Sounds Of Louisville
 description: "Sounds Of Louisville - An exploration of the sounds of the city"
 featured_image: '/images/soundsoflouisville.jpg'
+thumbnail: '/images/soundsoflouisville.jpg'
+featured: true
 ---
 
 <a href="http://soundsoflouisville.com" class="button" alt="Go to the Sounds Of Louisville website.">View Website</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/codethebeard/soundsoflouisville" class="button" alt="Checkout the code">View GitHub</a>
