@@ -7,9 +7,9 @@ thumbnail: '/images/soundsoflouisville.jpg'
 featured: true
 ---
 
-<a href="http://soundsoflouisville.com" class="button" alt="Go to the Sounds Of Louisville website.">View Website</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/codethebeard/soundsoflouisville" class="button" alt="Checkout the code">View GitHub</a>
+<a href="http://codethebeard.com/soundsoflouisville/" class="button" alt="Go to the Sounds Of Louisville website.">View Website</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/codethebeard/soundsoflouisville" class="button" alt="Checkout the code">View GitHub</a>
 
-I always try to challenge myself to create things when I have a little bit of time away from my work desk. This time I wanted to create an experience that you normally wouldn't really think about. There are a lot of city centric blogs out there that take photos, videos, and write about the area that they are in. But, there hasn't been many sound blogs from a city. There are tons of different atmospheres from across the city that have distinct sounds. That's what [Sounds Of Louisville](http://soundsoflouisville.com) aims to explore.
+I always try to challenge myself to create things when I have a little bit of time away from my work desk. This time I wanted to create an experience that you normally wouldn't really think about. There are a lot of city centric blogs out there that take photos, videos, and write about the area that they are in. But, there hasn't been many sound blogs from a city. There are tons of different atmospheres from across the city that have distinct sounds. That's what [Sounds Of Louisville](http://codethebeard.com/soundsoflouisville/) aims to explore.
 
 Basically, it's a sound blog that contains high quality, 180 degree stereo ambient sound from different places around the city of Louisville at different times during the day. It could be sounds from construction at the new Omni Hotel, the birds chirping downtown at the Humana building, or a thunderstorm in the East-End. There are so many sounds to explore.
 

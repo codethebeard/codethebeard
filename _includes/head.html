@@ -27,6 +27,13 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@codethebeard">
+    <meta name="twitter:creator" content="@codethebeard">
+    {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% endif %}
+    {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% endif %}
+    {% if page.thumbnail %}<meta name="twitter:image" content="{{ page.thumbnail | prepend: site.url }}">{% endif %}
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47262665-1"></script>
     <script>
@@ -41,7 +48,6 @@
     <![endif]-->
 
     <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" media="print" href="{{ '/css/print.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/js/photoswipe-4.1.2/photoswipe.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/js/photoswipe-4.1.2/default-skin/default-skin.css' | prepend: site.baseurl }}">
 </head>
