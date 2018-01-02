@@ -3,20 +3,26 @@ layout: default
 ---
 
 <div class="home portfolio">
-
 	<div class="post__wrap clearfix">
 		{% assign posts = paginator.posts %}
 		{% if posts.size > 0 %}
-		{% for post in posts %}
-
-		<div class="portfolio__item">
-			<a href="{{ post.url | prepend: site.baseurl }}" class="portfolio__link">
-				<img src="{{ post.featured_image | prepend: site.baseurl }}" alt="{{ post.title }}" class="portfolio__image">
-				<h1>{{ post.title }}</h1>
-			</a>
+		<div class="macy-container">
+			{% for post in posts %}
+			<!--All Non-Featured Blog Posts-->
+			{% if post.featured != true %}
+			<div class="portfolio__item">
+				<a href="{{ post.url | prepend: site.baseurl }}" class="portfolio__link">
+					{% if post.thumbnail %}
+						<img src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.title }}" class="portfolio__image">
+					{% else %}
+						<img src="{{ '/images/misc/default-thumbnail.jpg' | prepend: site.baseurl }}" alt="{{ post.title }}" class="portfolio__image">
+					{% endif %}
+					<h1>{{ post.title }}</h1>
+				</a>
+			</div>
+			{% endif %}
+			{% endfor %}
 		</div>
-
-		{% endfor %}
 		{% else %}
 		<div class="post__item">
 			<h2 class="post__title">Sorry. No posts yet.</h2>
@@ -28,16 +34,16 @@ layout: default
 	<!-- Pagination links -->
 	<div class="pagination">
 		{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-		{% else %}
-		<span class="previous">Previous</span>
+			<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
 		{% endif %}
-		<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+		{% if paginator.page != paginator.total_pages %}
+			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+		{% endif %}
 		{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path }}" class="next">Next</a>
-		{% else %}
-		<span class="next ">Next</span>
+			<a href="{{ paginator.next_page_path }}" class="next">Next</a>
 		{% endif %}
 	</div>
 
 </div>
+
+{% include macy-scripts.html %}

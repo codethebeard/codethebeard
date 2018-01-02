@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Placeholder
-featured_image: '/images/michael-small.jpg'
+featured_image: '/images/michael-small.jpg' # Listed at top of page.
+thumbnail: '/images/michael-small.jpg' # Used as a thumbnail
+featured: true
 published: false
 ---
 

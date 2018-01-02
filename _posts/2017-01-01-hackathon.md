@@ -3,6 +3,8 @@ layout: post
 title: We placed 2nd at GE's Hack-The-Home Hackathon!
 description: "We placed 2nd at GE's Hack-The-Home Hackathon! | Michael Large"
 featured_image: '/images/gehackathon.jpg'
+thumbnail: '/images/gehackathon.jpg'
+featured: true
 ---
 
 <a href="https://github.com/codethebeard/firstbuild_hackathon" class="button" alt="Checkout the code">View GitHub</a>
