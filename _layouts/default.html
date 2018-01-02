@@ -17,9 +17,11 @@
       <div class="page__content page__{{ page.url | slugify }}">
         <div class="page__inner">
           {{ content }}
+
+          {% include footer.html %}
+
         </div>
       </div>
-
     </div>
 
     {% include photoswipe.html %}
