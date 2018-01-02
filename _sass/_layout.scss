@@ -37,8 +37,11 @@
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
-	margin-left: 3rem;
-	margin-right: 3rem;
+
+	@media(min-width: $smallScreen){
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
 
 	figure{
 		margin: 0;

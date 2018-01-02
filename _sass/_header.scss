@@ -67,8 +67,10 @@
 }
 
 .post__header{
-	margin-left: 3rem;
-	margin-right: 3rem;
+	@media(min-width: $smallScreen){
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
 }
 
 .in-progress{
