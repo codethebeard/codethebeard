@@ -19,12 +19,15 @@ permalink: /portfolio/
 						{% else %}
 							<img src="{{ '/images/misc/default-thumbnail.jpg' | prepend: site.baseurl }}" alt="" class="portfolio__image">
 						{% endif %}
+						<h1>{{ post.title }}</h1>
 					</a>
 				</div>
 				{% endif %}
 			{% endfor %}
 			</div>
 		{% endif %}
+
+
 	</div>
 </div>
 

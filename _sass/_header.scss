@@ -6,6 +6,7 @@
 	color: $black;
 	position: relative;
 	transition: opacity 1s, max-width 1s;
+	border-bottom: solid 5px rgba(201,201,201, 0.6);
 
 	&.active{
 		.site__title{
@@ -19,11 +20,13 @@
 		max-width: 18rem;
 		position: relative;
 		flex: none;
+		border: none;
 		border-right: solid 5px rgba(201,201,201, 0.6);
 	}
 }
 
 .site__description{
+	color: rgba($grey, 0.9);
 
 	@media (min-width: $smallScreen) {
 		position: absolute;
@@ -43,8 +46,7 @@
 	font-size: 1.5em;
 	letter-spacing: 1px;
 	font-family: $san-serif;
-	font-weight: normal;
-	text-transform: uppercase;
+	font-weight: bold;
 	transition: color 1s;
 
 	@media (min-width:$smallScreen) {
@@ -110,14 +112,6 @@
 			animation-fill-mode: forwards;
 		}
 	}
-}
-
-.disclaimer{
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 70%;
-	margin-top: 1em;
-	color: #DDDDDD;
 }
 
 @keyframes wow{
