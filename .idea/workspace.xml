@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="529cbb79-3063-4865-a670-d73166980285" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/misc/default-thumbnail.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/macy-scripts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/macy/macy.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/optimize.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/blackbeard-a-jekyll-theme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/hairsnob-spray-bottle-heater.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/life-updates.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/penny-power-alarm-part-2.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/surprising-facts-about-wordpress.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/figure.html" afterPath="$PROJECT_DIR$/_includes/figure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-01-hackathon.md" afterPath="$PROJECT_DIR$/_posts/2017-01-01-hackathon.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-01-magicmirror.md" afterPath="$PROJECT_DIR$/_posts/2017-01-01-magicmirror.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-01-slackdump.md" afterPath="$PROJECT_DIR$/_posts/2017-01-01-slackdump.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-01-soundsoflouisville.md" afterPath="$PROJECT_DIR$/_posts/2017-01-01-soundsoflouisville.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-01-teatime.md" afterPath="$PROJECT_DIR$/_posts/2017-01-01-teatime.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-01-01-placeholder.md" afterPath="$PROJECT_DIR$/_posts/2018-01-01-placeholder.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_base.scss" afterPath="$PROJECT_DIR$/_sass/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_header.scss" afterPath="$PROJECT_DIR$/_sass/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="$PROJECT_DIR$/_sass/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_type.scss" afterPath="$PROJECT_DIR$/_sass/_type.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/about.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/photoswipe-4.1.2/photoswipe-custom.js" afterPath="$PROJECT_DIR$/js/photoswipe-4.1.2/photoswipe-custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="$PROJECT_DIR$/portfolio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_nav.scss" afterPath="$PROJECT_DIR$/_sass/_nav.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="84" column="23" lean-forward="true" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+              <caret line="84" column="23" lean-forward="false" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -60,7 +34,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-01-01-slackdump.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_nav.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_sass/_nav.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-01-01-slackdump.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-01-01-slackdump.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -130,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_sass/_nav.scss" />
         <option value="$PROJECT_DIR$/_layouts/page.html" />
         <option value="$PROJECT_DIR$/portfolio/slackdump.md" />
         <option value="$PROJECT_DIR$/portfolio/hackathon.md" />
@@ -168,6 +151,7 @@
         <option value="$PROJECT_DIR$/_sass/_base.scss" />
         <option value="$PROJECT_DIR$/_sass/_header.scss" />
         <option value="$PROJECT_DIR$/_posts/2017-01-01-slackdump.md" />
+        <option value="$PROJECT_DIR$/_sass/_nav.scss" />
       </list>
     </option>
   </component>
@@ -216,7 +200,7 @@
             <path>
               <item name="codethebeard.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="codethebeard.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codethebeard.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -607,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_type.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
@@ -761,15 +737,7 @@
     <entry file="file://$PROJECT_DIR$/_sass/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="84" column="23" lean-forward="true" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <caret line="84" column="23" lean-forward="false" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -782,6 +750,22 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
